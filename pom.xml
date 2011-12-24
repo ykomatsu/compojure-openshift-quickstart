@@ -44,6 +44,11 @@
       <artifactId>ring-servlet</artifactId>
       <version>1.0.1</version>
     </dependency>
+    <dependency>
+      <groupId>stencil</groupId>
+      <artifactId>stencil</artifactId>
+      <version>0.2.0</version>
+    </dependency>
   </dependencies>
   <profiles>
     <profile>
