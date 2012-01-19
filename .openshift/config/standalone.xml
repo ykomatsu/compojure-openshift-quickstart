@@ -177,6 +177,7 @@
             <connector name="http" scheme="http" protocol="HTTP/1.1" socket-binding="http"/>
             <virtual-server name="default-host" enable-welcome-root="false">
                <alias name="localhost" />
+               <access-log></access-log>
             </virtual-server>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:weld:1.0" />
