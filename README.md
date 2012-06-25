@@ -8,7 +8,7 @@ Compojure is a web framework for [Clojure][2].
 
 ## Running on OpenShift Express
 
-    rhc-create-app -a hellocompojure -t jbossas-7.0
+    rhc app create -a hellocompojure -t jbossas-7
 
     cd hellocompojure
     git remote add upstream -m master git://github.com/ykomatsu/compojure-openshift-quickstart.git
