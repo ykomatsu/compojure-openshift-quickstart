@@ -1,4 +1,4 @@
-# Compojure Quickstart for OpenShift Express
+# Compojure Quickstart for OpenShift
 
 This is a simple quickstart for [Compojure][1].
 Compojure is a web framework for [Clojure][2].
@@ -9,12 +9,13 @@ Compojure is a web framework for [Clojure][2].
 ## Deprecated
 
 This project is no longer under active development.
-If you would like to use Clojure on OpenShift, please use
-[Immutant on OpenShift][3].
+If you would like to use Clojure on [OpenShift][3], please use
+[Immutant on OpenShift][4].
 
-  [3]: https://github.com/immutant/openshift-quickstart
+  [3]: https://openshift.redhat.com/app/
+  [4]: https://github.com/immutant/openshift-quickstart
 
-## Running on OpenShift Express
+## Running on OpenShift
 
     rhc app create -a hellocompojure -t jbossas-7
 
@@ -30,6 +31,6 @@ If you would like to use Clojure on OpenShift, please use
 
 ## License
 
-The quickstart code is licensed under the Apache License, Version 2.0: [http://www.apache.org/licenses/LICENSE-2.0.html][4]
+The quickstart code is licensed under the Apache License, Version 2.0: [http://www.apache.org/licenses/LICENSE-2.0.html][5]
 
-  [4]: http://www.apache.org/licenses/LICENSE-2.0.html
+  [5]: http://www.apache.org/licenses/LICENSE-2.0.html
