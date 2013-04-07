@@ -13,7 +13,7 @@ If you would like to use Clojure on [OpenShift][3], please use
 [Immutant on OpenShift][4].
 
   [3]: https://openshift.redhat.com/app/
-  [4]: https://github.com/immutant/openshift-quickstart
+  [4]: https://github.com/openshift-quickstart/immutant-quickstart
 
 ## Running on OpenShift
 
